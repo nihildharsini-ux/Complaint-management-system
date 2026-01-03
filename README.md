@@ -12,6 +12,16 @@ Description:
 •	JDBC CRUD
 •	Response sent back to JSP pages
 
+Database:
+CREATE DATABASE complaint_db;
+USE complaint_db;
+
+CREATE TABLE complaint (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    issue VARCHAR(255),
+    status VARCHAR(20)
+);
 
 
 
